@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspace/Blenderizer/src/../include/atomicassets.hpp
+eosio/eosio.hpp
+-
+eosio/singleton.hpp
+-
+eosio/asset.hpp
+-
+atomicdata.hpp
+-
+
+/workspace/Blenderizer/src/../include/atomicdata.hpp
+eosio/eosio.hpp
+-
+base58.hpp
+/workspace/Blenderizer/src/../include/base58.hpp
+
+/workspace/Blenderizer/src/../include/base58.hpp
+string
+-
+vector
+-
+
+/workspace/Blenderizer/src/../include/blender.hpp
+eosio/eosio.hpp
+-
+eosio/asset.hpp
+-
+atomicassets.hpp
+-
+atomicdata.hpp
+-
+
+/workspace/Blenderizer/src/blender.cpp
+blender.hpp
+-
+

@@ -1,0 +1,126 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: cannot open /tmp/CMakeCCompilerId.c.o: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: duplicate symbol: main(int, char**)
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: duplicate symbol: info_platform
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: duplicate symbol: info_compiler
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: duplicate symbol: info_language_dialect_default
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: duplicate symbol: info_arch
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_83b06/fast"
+make[3]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_83b06.dir/build.make CMakeFiles/cmTC_83b06.dir/build
+make[4]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83b06.dir/CMakeCCompilerABI.c.obj
+/usr/bin/eosio-cc   -O3     -o CMakeFiles/cmTC_83b06.dir/CMakeCCompilerABI.c.obj   -c /usr/local/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_83b06.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83b06.dir/link.txt --verbose=1
+/usr/bin/eosio-ld  -v CMakeFiles/cmTC_83b06.dir/CMakeCCompilerABI.c.obj -o cmTC_83b06.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_83b06.dir/build.make:86: recipe for target 'cmTC_83b06.wasm' failed
+make[4]: *** [cmTC_83b06.wasm] Error 1
+make[4]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_83b06/fast' failed
+make[3]: *** [cmTC_83b06/fast] Error 2
+make[3]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7f42/fast"
+make[3]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c7f42.dir/build.make CMakeFiles/cmTC_c7f42.dir/build
+make[4]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7f42.dir/feature_tests.c.obj
+/usr/bin/eosio-cc   -O3     -std=c11 -o CMakeFiles/cmTC_c7f42.dir/feature_tests.c.obj   -c /workspace/Blenderizer/build/blender/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/usr/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_c7f42.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c7f42.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_c7f42.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c7f42/fast' failed
+make[3]: *** [cmTC_c7f42/fast] Error 2
+make[3]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c5a5/fast"
+make[3]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2c5a5.dir/build.make CMakeFiles/cmTC_2c5a5.dir/build
+make[4]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2c5a5.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/eosio-cpp    -O3     -o CMakeFiles/cmTC_2c5a5.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/local/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2c5a5.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c5a5.dir/link.txt --verbose=1
+/usr/bin/eosio-ld  -v CMakeFiles/cmTC_2c5a5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_2c5a5.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_2c5a5.dir/build.make:86: recipe for target 'cmTC_2c5a5.wasm' failed
+make[4]: *** [cmTC_2c5a5.wasm] Error 1
+make[4]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2c5a5/fast' failed
+make[3]: *** [cmTC_2c5a5/fast] Error 2
+make[3]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++2a] compiler features failed to compile with the following output:
+Change Dir: /workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8594/fast"
+make[3]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b8594.dir/build.make CMakeFiles/cmTC_b8594.dir/build
+make[4]: Entering directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8594.dir/feature_tests.cxx.obj
+/usr/bin/eosio-cpp    -O3     -std=c++2a -o CMakeFiles/cmTC_b8594.dir/feature_tests.cxx.obj -c /workspace/Blenderizer/build/blender/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8594.wasm
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8594.dir/link.txt --verbose=1
+/usr/bin/eosio-ld   CMakeFiles/cmTC_b8594.dir/feature_tests.cxx.obj -o cmTC_b8594.wasm 
+/usr/opt/eosio.cdt/1.6.2/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_b8594.dir/build.make:86: recipe for target 'cmTC_b8594.wasm' failed
+make[4]: *** [cmTC_b8594.wasm] Error 255
+make[4]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_b8594/fast' failed
+make[3]: *** [cmTC_b8594/fast] Error 2
+make[3]: Leaving directory '/workspace/Blenderizer/build/blender/CMakeFiles/CMakeTmp'
+
+
+

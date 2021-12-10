@@ -1,0 +1,3 @@
+/workspace/Blenderizer/build/CMakeFiles/rebuild_cache.dir
+/workspace/Blenderizer/build/CMakeFiles/blender_project.dir
+/workspace/Blenderizer/build/CMakeFiles/edit_cache.dir

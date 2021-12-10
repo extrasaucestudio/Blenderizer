@@ -1,0 +1,14 @@
+# Target labels
+ blender_project
+# Source files and their labels
+/workspace/Blenderizer/build/CMakeFiles/blender_project
+/workspace/Blenderizer/build/CMakeFiles/blender_project.rule
+/workspace/Blenderizer/build/CMakeFiles/blender_project-complete.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-install.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-mkdir.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-download.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-update.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-patch.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-configure.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-build.rule
+/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-test.rule

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/workspace/Blenderizer/build/CMakeFiles/blender_project"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/CMakeFiles/blender_project.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/CMakeFiles/blender_project-complete.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-install.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-mkdir.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-download.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-update.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-patch.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-configure.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-build.rule"
+		},
+		{
+			"file" : "/workspace/Blenderizer/build/blender_project-prefix/src/blender_project-stamp/blender_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"blender_project"
+		],
+		"name" : "blender_project"
+	}
+}

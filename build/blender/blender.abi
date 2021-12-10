@@ -1,0 +1,157 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "blender_item",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "collection",
+                    "type": "name"
+                },
+                {
+                    "name": "target",
+                    "type": "int32"
+                },
+                {
+                    "name": "mixture",
+                    "type": "int32[]"
+                }
+            ]
+        },
+        {
+            "name": "createblend",
+            "base": "",
+            "fields": [
+                {
+                    "name": "authorized_user",
+                    "type": "name"
+                },
+                {
+                    "name": "target_collection",
+                    "type": "name"
+                },
+                {
+                    "name": "target_template",
+                    "type": "int32"
+                },
+                {
+                    "name": "templates_to_mix",
+                    "type": "int32[]"
+                }
+            ]
+        },
+        {
+            "name": "delblend",
+            "base": "",
+            "fields": [
+                {
+                    "name": "authorized_account",
+                    "type": "name"
+                },
+                {
+                    "name": "target_template",
+                    "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "pending_ram_item",
+            "base": "",
+            "fields": [
+                {
+                    "name": "owner",
+                    "type": "name"
+                },
+                {
+                    "name": "ram_bytes",
+                    "type": "int64"
+                },
+                {
+                    "name": "amount",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "rambalance_item",
+            "base": "",
+            "fields": [
+                {
+                    "name": "collection",
+                    "type": "name"
+                },
+                {
+                    "name": "bytes",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "withdrawram",
+            "base": "",
+            "fields": [
+                {
+                    "name": "authorized_account",
+                    "type": "name"
+                },
+                {
+                    "name": "collection",
+                    "type": "name"
+                },
+                {
+                    "name": "bytes",
+                    "type": "int64"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "createblend",
+            "type": "createblend",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "delblend",
+            "type": "delblend",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "withdrawram",
+            "type": "withdrawram",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "blenders",
+            "type": "blender_item",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "pendingram",
+            "type": "pending_ram_item",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        },
+        {
+            "name": "rambalance",
+            "type": "rambalance_item",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}
