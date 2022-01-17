@@ -26,6 +26,30 @@
             ]
         },
         {
+            "name": "burnmixture",
+            "base": "",
+            "fields": [
+                {
+                    "name": "mixture",
+                    "type": "uint64[]"
+                }
+            ]
+        },
+        {
+            "name": "buyramproxy",
+            "base": "",
+            "fields": [
+                {
+                    "name": "collection",
+                    "type": "name"
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
             "name": "createblend",
             "base": "",
             "fields": [
@@ -58,6 +82,28 @@
                 {
                     "name": "target_template",
                     "type": "int32"
+                }
+            ]
+        },
+        {
+            "name": "mintasset",
+            "base": "",
+            "fields": [
+                {
+                    "name": "collection",
+                    "type": "name"
+                },
+                {
+                    "name": "schema",
+                    "type": "name"
+                },
+                {
+                    "name": "template_id",
+                    "type": "int32"
+                },
+                {
+                    "name": "to",
+                    "type": "name"
                 }
             ]
         },
@@ -114,6 +160,16 @@
     ],
     "actions": [
         {
+            "name": "burnmixture",
+            "type": "burnmixture",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "buyramproxy",
+            "type": "buyramproxy",
+            "ricardian_contract": ""
+        },
+        {
             "name": "createblend",
             "type": "createblend",
             "ricardian_contract": ""
@@ -121,6 +177,11 @@
         {
             "name": "delblend",
             "type": "delblend",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "mintasset",
+            "type": "mintasset",
             "ricardian_contract": ""
         },
         {
@@ -153,5 +214,7 @@
         }
     ],
     "ricardian_clauses": [],
+    "error_messages": [],
+    "abi_extensions": [],
     "variants": []
 }
